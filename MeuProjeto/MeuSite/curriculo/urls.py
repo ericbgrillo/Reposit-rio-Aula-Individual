@@ -9,5 +9,6 @@ urlpatterns = [
     # o link para essa rota pode ser criado usando o nome 'curriculo_spiff'
     # Exemplo: {% url 'curriculo:curriculo_spiff' %}
     path('spiff/', views.curriculo_spiff, name='curriculo_spiff'),
+    path('curriculo/', views.curriculo_spiff_v2, name='meucurriculo'),
     # essa rota pode ser acessada em /curriculo/spiff/v2/
 ]

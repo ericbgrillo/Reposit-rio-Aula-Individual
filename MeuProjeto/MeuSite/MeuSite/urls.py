@@ -27,5 +27,8 @@ urlpatterns = [
     # Map the home view to the root URL
     path('', views.home, name='home'),  # Map the home view to the root URL
     path('curriculo/', include('curriculo.urls')),  # Include the curriculo app URLs
+    # aqui pode haver mais linhas
+    # inclua a linha abaixo no final da lista
+    path('accounts/', include('django.contrib.auth.urls')),  # Include authentication URLs
 ]
 
